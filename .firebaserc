@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "ng-kanban-87dd9": {
+      "hosting": {
+        "kanban": [
+          "ng-kanban-87dd9"
+        ]
+      }
+    }
+  }
+}
