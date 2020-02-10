@@ -51,7 +51,7 @@ $custom-orange: (
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue. Available color palettes: https://material.io/design/color/
 $kanban-primary: mat-palette($custom-orange);
-$kanban-accent: mat-palette($mat-pink, A200, A100, A400);
+$kanban-accent: mat-palette($mat-green, A200, A100, A400);
 
 // The warn palette is optional (defaults to red).
 $kanban-warn: mat-palette($mat-red);
@@ -66,12 +66,11 @@ $kanban-theme: mat-dark-theme($kanban-primary, $kanban-accent, $kanban-warn);
 
 /* You can add global styles to this file, and also import other style files */
 
+
+
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: sofia-pro, sans-serif; }
 a {
-  color: white;
-  text-decoration: none;
-}
-main {
-  padding-top: 16px;
+    color: white;
+    text-decoration: none;
 }
